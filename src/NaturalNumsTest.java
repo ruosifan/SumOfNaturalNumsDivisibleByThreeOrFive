@@ -3,16 +3,14 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
+
 public class NaturalNumsTest {
 
-	@Before
-	public void setup(){
-		NaturalNums nn = new NaturalNums();
-	}
-	
+
 	@Test
-	public void shouldFindAllNumsDivisibleByThreeOrFive(10){
-		assertEquals()
+	public void shouldFindAllNumsDivisibleByThreeOrFive(){
+		NaturalNums nn = new NaturalNums();
+		assertEquals(nn.run(10), 3+5+6+9);
 	}
 
 }

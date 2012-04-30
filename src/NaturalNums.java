@@ -9,7 +9,6 @@ public class NaturalNums {
 		} else {
 			return false;
 		}
-		
 	}
 	
 	public int run(int largeNum){
